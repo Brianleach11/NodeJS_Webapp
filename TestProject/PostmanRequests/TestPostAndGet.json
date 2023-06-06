@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "6e6b60cd-6bd8-4f46-8ce5-c5e4dc678637",
+		"name": "Node Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25533487"
+	},
+	"item": [
+		{
+			"name": "Node POST test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Brian Leach\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/postRequest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"postRequest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Node GET test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		}
+	]
+}
